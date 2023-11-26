@@ -1,0 +1,29 @@
+- path: /google
+  url: https://www.google.com
+
+- path: /github
+  url: https://github.com
+
+- path: /facebook
+  url: https://www.facebook.com
+
+- path: /twitter
+  url: https://twitter.com
+
+- path: /linkedin
+  url: https://www.linkedin.com
+
+- path: /reddit
+  url: https://www.reddit.com
+
+- path: /stackoverflow
+  url: https://stackoverflow.com
+
+- path: /medium
+  url: https://medium.com
+
+- path: /youtube
+  url: https://www.youtube.com
+
+- path: /amazon
+  url: https://www.amazon.com
