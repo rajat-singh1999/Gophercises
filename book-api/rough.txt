@@ -1,0 +1,23 @@
+/myapp
+│   main.go
+│
+├───/controllers
+│       books.go
+│
+├───/middlewares
+│       testMiddle.go
+│
+├───/models
+│       book.go
+│
+├───/routes
+│       routes.go
+│
+├───/helpers
+│       getBookById.go
+│
+├───/db
+│       connection.go
+│
+└───/auth
+        jwt.go
