@@ -1,0 +1,50 @@
+next feature additions:
+
+-> add aditional field to books to keep track of capacity(or some other name)
+        -> the main motive is to stop deletion of a book from the database if some copies of that book have been currently issued to users
+
+-> prevent deletion of users if they have books issued to their name
+
+-> userUpdate route, accessible to user and admin
+        -> user can only update their data
+                -> can update email, password, username
+                -> email and username can only be updated if no collisions with other users
+        -> admin can update all users data, one at a time
+
+-> set expiration time of JWT tokens
+
+-> middleware for validating incoming json on all routes
+
+-> convert the entire database thing from json files to mongoDB
+
+-> add a simple frontend
+
+-> schema implimentation of api responses(response header, body, etc)
+
+
+
+
+
+/myapp
+│   main.go
+│
+├───/controllers
+│       books.go
+│
+├───/middlewares
+│       testMiddle.go
+│
+├───/models
+│       book.go
+│
+├───/routes
+│       routes.go
+│
+├───/helpers
+│       getBookById.go
+│
+├───/db
+│       connection.go
+│
+└───/auth
+        jwt.go

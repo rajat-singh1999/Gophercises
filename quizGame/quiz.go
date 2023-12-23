@@ -1,5 +1,4 @@
-// quiz.go
-package main
+package quizGame
 
 import (
 	"bufio"
@@ -9,14 +8,12 @@ import (
 	"time"
 )
 
-// ... (rest of the code)
-
 func Game() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Press ENTER to start the game.")
 	reader.ReadString('\n')
 
-	file, err := os.Open("problems.csv")
+	file, err := os.Open("quizGame/problems.csv")
 	if err != nil {
 		fmt.Println("[1]Error while reading the file.")
 		fmt.Println("Error: ", err)

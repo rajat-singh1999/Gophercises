@@ -1,12 +1,12 @@
 package main
 
 import (
+	"example/urlShortner/urlshort"
 	"flag"
 	"fmt"
 	"io"
 	"net/http"
 	"os"
-	"urlShortner/urlshort"
 )
 
 var yamlFile string
@@ -26,6 +26,7 @@ func main() {
 
 	// exiting if no flag is provided
 	if yamlFile == "" && jsonFile == "" {
+		fmt.Println("give either one of the flags.\n \t\tTry:\n\t\t\t\"go run main.go -yaml=<yaml-file-path-without-extension>\"  or\n\t\t\t\"go run main.go -json=<json-file-path-without-extension>\"")
 		return
 	}
 

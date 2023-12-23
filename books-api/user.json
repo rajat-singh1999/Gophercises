@@ -1,0 +1,40 @@
+[
+ {
+  "id": "9761",
+  "access": "admin",
+  "username": "somu",
+  "email": "somu@gmail.com",
+  "password": "$2a$15$WU00TTLWUx3J6hqEgMW0AOj2/gikhwTfl1aYo4acjRdygnQYfSdfC",
+  "issued": []
+ },
+ {
+  "id": "8919",
+  "access": "user",
+  "username": "ravi",
+  "email": "ravi@gmail.com",
+  "password": "$2a$15$Z3suspJ/j7mwWB5YSKRm5uH2YVyW1ljfwFL3DL521e61dQIJjR/6O",
+  "issued": []
+ },
+ {
+  "id": "6741",
+  "access": "user",
+  "username": "abcd",
+  "email": "abc@abc.com",
+  "password": "$2a$15$X2Y0KHjUpzxH80TM1CPvr.ZXRHwVbkyV8UHr80TRukhI.h28UOtOe",
+  "issued": [
+   "3",
+   "6",
+   "10"
+  ]
+ },
+ {
+  "id": "5226",
+  "access": "admin",
+  "username": "rajat",
+  "email": "rsingh1734@gmail.com",
+  "password": "$2a$15$LdJ7BAECZjlvbYdKOILKlORNaqEZWemT67NS31XlelHrCguX0V6l2",
+  "issued": [
+   "2"
+  ]
+ }
+]
